@@ -23,16 +23,6 @@ An AI-driven web app that analyzes real-time news sentiment for any publicly tra
 ## 📁 Folder Structure
 
 ```
-stock_sentiment_tracker/
-│
-├── venv/                      # Virtual environment
-├── app.py                    # Main Flask app
-├── static/
-│   └── chart.png             # Auto-generated sentiment chart
-├── templates/
-│   └── index.html            # Web page for input and results
-└── requirements.txt          # Python dependencies
-```
 
 ---
 
@@ -129,9 +119,4 @@ MIT License. Free to use, modify, and distribute.
 
 ---
 
-## 💼 Made with ❤️ by [Your Name]
-```
 
----
-
-Let me know if you'd like to replace `[Your Name]` with yours or want me to help you set it up on GitHub! 💻🔥
