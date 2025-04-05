@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Market Sentiment Tracker</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .positive { color: green; }
+        .negative { color: red; }
+        .neutral { color: gray; }
+    </style>
+</head>
+<body>
+    <h1>📊 Stock Market Sentiment Tracker</h1>
+    <form method="POST">
+        <input type="text" name="stock" placeholder="Enter stock symbol (e.g. AAPL)" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if sentiments %}
+        <h2>Sentiment Analysis for {{ stock.upper() }}</h2>
+        <table>
+            <tr><th>Headline</th><th>Score</th><th>Sentiment</th></tr>
+            {% for headline, score, sentiment in sentiments %}
+            <tr>
+                <td>{{ headline }}</td>
+                <td>{{ score }}</td>
+                <td class="{{ sentiment|lower }}">{{ sentiment }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>
