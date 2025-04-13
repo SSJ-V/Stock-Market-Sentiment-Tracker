@@ -16,8 +16,6 @@ An AI-driven web app that analyzes real-time news sentiment for any publicly tra
 - 📊 Visualizes sentiment distribution using Matplotlib
 - ⚡ Built with Flask, BeautifulSoup, Requests, Pandas
 
----
-
 ```
 
 ---
