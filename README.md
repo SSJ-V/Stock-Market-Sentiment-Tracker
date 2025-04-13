@@ -1,6 +1,4 @@
 # Stock-Market-Sentiment-Tracker
-Absolutely! Here's the full **copy-paste-ready `README.md`** — just grab this and drop it into your project folder as `README.md`:
-
 ---
 
 ```markdown
@@ -76,14 +74,6 @@ Then open your browser and go to:
 ```
 http://127.0.0.1:5000
 ```
-
----
-
-## 📸 Screenshot
-
-![Sentiment Chart](static/chart.png)
-
----
 
 ## 📌 Technologies Used
 
