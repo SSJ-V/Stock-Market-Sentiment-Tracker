@@ -18,8 +18,6 @@ An AI-driven web app that analyzes real-time news sentiment for any publicly tra
 
 ---
 
-## 📁 Folder Structure
-
 ```
 
 ---
